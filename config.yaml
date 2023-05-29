@@ -1,0 +1,98 @@
+baseURL: "https://arkalim.org"
+languageCode: en-us
+title: Dhairya Parikh
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: Publications
+      name: Publications
+      url: /publications
+      weight: 20
+    - identifier: projects
+      name: Projects
+      url: /projects
+      weight: 30
+    - identifier: experience
+      name: Experience
+      url: /experience
+      weight: 40
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 50
+    - identifier: tags
+      name: Tags
+      url: /tags
+      weight: 60
+    - identifier: notes
+
+params:
+  # theme
+  showToc: true
+  TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideMeta: false
+
+  # for enchanced SEO
+  env: production
+
+  # Home Page
+  profileMode:
+    enabled: true
+    title: "Dhairya Parikh"
+    subtitle: "Hello, I'm Dhairya, an upcoming [**MEng ECE**](https://uwaterloo.ca/electrical-computer-engineering/master-engineering-meng) student at the [**University of Waterloo**](https://uwaterloo.ca). Passionate about **Data** and **Cloud Computing**, I currently work as a **Data Engineering Analyst** at [**Accenture Strategy and Consulting**](https://www.accenture.com/in-en/about/consulting-index). In my free time, I write about tech, specifically in the Machine Learning and Internet of Things domain. I recently authored my very first book [**Raspberry Pi and MQTT Essentials**](https://www.packtpub.com/product/raspberry-pi-and-mqtt-essentials/)."
+    imageUrl: "home/profile.jpeg"
+    imageWidth: 220
+    imageHeight: 220
+    buttons:
+      - name: Resume
+        url: "https://drive.google.com/file/d/1hBF55F95X2VWTpeWT60ZJXTB-Saici3y/view"
+
+  # List View
+  hideDescriptionInList: false
+
+  # cover image for posts
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  socialIcons:
+    - name: "email"
+      url: "mailto:dhairyaparikh1998@gmail.com"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/dhairya-atit-parikh/"
+    - name: "github"
+      url: "https://github.com/Dhairya1007"
+    - name: "medium"
+      url: "https://medium.com/@dhairyaparikh67"
+    - name: "hackster"
+      url: "https://www.hackster.io/dhairya-parikh"
+
+  # text search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# for search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# allow HTML in MD
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
