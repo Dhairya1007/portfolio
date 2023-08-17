@@ -3,7 +3,7 @@ title: "Home Credit Default Risk"
 description: "Can you predict how capable each applicant is of repaying a loan?"
 dateString: Mar 2020 - Apr 2020
 draft: false
-tags: ["Python", "LightGBM", "Machine Learning", "AI", "Fincance", "Jupyter Notebook"]
+tags: ["Python", "LightGBM", "Machine Learning", "AI", "Finance", "Jupyter Notebook"]
 showToc: false
 weight: 202
 cover:
