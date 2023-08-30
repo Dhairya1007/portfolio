@@ -1,9 +1,9 @@
 ---
 title: "Data Engineer"
 description: "Accenture Strategy and Consulting"
-dateString: May 2021 - Ongoing
+dateString: May 2021 - Aug 2023
 draft: false
-tags: ["Python", "Linux", "Kubernetes", "Docker", "AWS", "GCP", "Flask", "Spark", "Scala", "Airflow", "ETL"]
+tags: ["Python", "Linux", "Kubernetes", "Docker", "AWS", "GCP", "Flask", "Spark", "Scala", "Airflow", "ETL", "Helm"]
 showToc: false
 weight: 301
 --- 
