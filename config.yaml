@@ -52,7 +52,8 @@ params:
     imageHeight: 220
     buttons:
       - name: Resume
-        url: "https://drive.google.com/file/d/1hBF55F95X2VWTpeWT60ZJXTB-Saici3y/view"
+        #url: "https://drive.google.com/file/d/1hBF55F95X2VWTpeWT60ZJXTB-Saici3y/view"
+        url: "https://drive.google.com/file/d/1hegYkHW_95lYJC_REVXzQf9AzgIBKzzM/view"
 
   # List View
   hideDescriptionInList: false
