@@ -46,7 +46,7 @@ params:
   profileMode:
     enabled: true
     title: "Dhairya Parikh"
-    subtitle: "Hello, I'm Dhairya, an upcoming [**MEng ECE**](https://uwaterloo.ca/electrical-computer-engineering/master-engineering-meng) student at the [**University of Waterloo**](https://uwaterloo.ca). Passionate about **Data** and **Cloud Computing**, I worked as a **Data Engineering Analyst** at [**Accenture Strategy and Consulting**](https://www.accenture.com/in-en/about/consulting-index) for over two years. In my free time, I write about tech, specifically in the Machine Learning and Internet of Things domain. I recently authored my very first book [**Raspberry Pi and MQTT Essentials**](https://www.packtpub.com/product/raspberry-pi-and-mqtt-essentials/)."
+    subtitle: "Hello, I'm Dhairya, current enrolled to the [**MEng ECE**](https://uwaterloo.ca/electrical-computer-engineering/master-engineering-meng) program at the [**University of Waterloo**](https://uwaterloo.ca). Passionate about **Data** and **Cloud Computing**, I worked as a **Data Engineering Analyst** at [**Accenture Strategy and Consulting**](https://www.accenture.com/in-en/about/consulting-index) for over two years. In my free time, I write about tech, specifically in the Machine Learning and Internet of Things domain. I recently authored my very first book [**Raspberry Pi and MQTT Essentials**](https://www.packtpub.com/product/raspberry-pi-and-mqtt-essentials/)."
     imageUrl: "home/profile.jpeg"
     imageWidth: 220
     imageHeight: 220
